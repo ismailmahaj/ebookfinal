@@ -1,0 +1,23 @@
+.DS_Store
+.env
+.env.local
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Dependencies (gérés par chaque sous-projet)
+laravel-api/vendor/
+react-web/node_modules/
+
+# Builds
+react-web/dist/
+
+# Laravel
+laravel-api/storage/logs/*
+laravel-api/storage/framework/cache/*
+laravel-api/storage/framework/sessions/*
+laravel-api/storage/framework/views/*
+!laravel-api/storage/**/.gitignore
