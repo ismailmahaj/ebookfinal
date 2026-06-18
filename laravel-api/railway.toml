@@ -1,6 +1,3 @@
-[build]
-builder = "NIXPACKS"
-
 [deploy]
 startCommand = "bash scripts/start.sh"
 healthcheckPath = "/up"
