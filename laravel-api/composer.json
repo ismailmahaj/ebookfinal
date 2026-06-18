@@ -1,12 +1,12 @@
 {
     "name": "ebook-platform/api",
     "type": "project",
-    "description": "Laravel 11 API for E-book Platform",
+    "description": "Laravel 12 API for E-book Platform",
     "keywords": ["laravel", "api", "ebook", "subscription"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.0",
+        "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
         "smalot/pdfparser": "^2.0",
         "stripe/stripe-php": "^13.0"
